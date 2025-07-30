@@ -75,7 +75,6 @@ export default function HeroSection({ translations }: HeroSectionProps) {
             </div>
           </div>
           
-          {/* Action Buttons - Fixed positioning */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center px-2 mb-16">
             <a
               href="https://wa.me/923259107237"
