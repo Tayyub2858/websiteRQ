@@ -1,0 +1,82 @@
+
+# Robot.txt for Rehmat E Quran - World's Leading Islamic Spiritual Healing Center
+# https://rehmatequran.com
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /api/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /_next/
+Disallow: /.well-known/
+
+# Allow specific important paths
+Allow: /sitemap.xml
+Allow: /sitemap.ts
+Allow: /robots.ts
+Allow: /favicon.ico
+Allow: /apple-touch-icon.png
+Allow: /manifest.json
+
+# Sitemap location
+Sitemap: https://rehmatequran.com/sitemap.xml
+
+# Search Engine Specific Instructions
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Block aggressive crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Host information
+Host: https://rehmatequran.com
