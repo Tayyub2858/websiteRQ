@@ -52,7 +52,7 @@ export default function ContactHero({ translations }: ContactHeroProps) {
   return (
     <>
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-600 via-emerald-700 to-emerald-800 overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url('https://readdy.ai/api/search-image?query=Professional%20Islamic%20spiritual%20healing%20consultation%20office%20with%20peaceful%20atmosphere%2C%20consultation%20desk%2C%20Islamic%20healer%20welcoming%20clients%2C%20spiritual%20guidance%20session%2C%20authentic%20Islamic%20environment%2C%20consultation%20room%2C%20prayer%20area%2C%20professional%20healing%20center%2C%20warm%20lighting%2C%20spiritual%20consultation&width=1920&height=1080&seq=contact-hero-bg&orientation=landscape')`,
@@ -60,7 +60,7 @@ export default function ContactHero({ translations }: ContactHeroProps) {
         >
           <div className="absolute inset-0 bg-emerald-900/70"></div>
         </div>
-        
+
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-white">
             <div className="mb-8">
@@ -75,19 +75,19 @@ export default function ContactHero({ translations }: ContactHeroProps) {
                 </span>
               </div>
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
               {translations.contactHeroTitle || 'Get Professional Islamic Spiritual Healing Consultation'}
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-emerald-100 mb-8 leading-relaxed max-w-3xl mx-auto">
               {translations.contactHeroSubtitle || 'Contact us for authentic Islamic spiritual healing services'}
             </p>
-            
+
             <p className="text-lg text-emerald-200 mb-12 leading-relaxed max-w-2xl mx-auto">
               {translations.contactHeroDescription || 'Available 24/7 for spiritual consultation and guidance. Get help with all life problems through authentic Islamic methods.'}
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a
                 href="https://wa.me/923259107237"
@@ -100,7 +100,7 @@ export default function ContactHero({ translations }: ContactHeroProps) {
                 </div>
                 {translations.whatsapp || 'WhatsApp Now'}
               </a>
-              
+
               <button
                 onClick={() => setIsEmailPopupOpen(true)}
                 className="inline-flex items-center justify-center bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-bold px-8 py-4 rounded-full transition-all duration-300 cursor-pointer whitespace-nowrap border-2 border-white/20 hover:border-white/40"
@@ -115,7 +115,7 @@ export default function ContactHero({ translations }: ContactHeroProps) {
             </div>
           </div>
         </div>
-        
+
         {/* Properly positioned and functional scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
           <button
@@ -163,7 +163,7 @@ export default function ContactHero({ translations }: ContactHeroProps) {
               {/* Content */}
               <div className="text-center mb-6 sm:mb-8">
                 <p className="text-gray-600 mb-3 sm:mb-4 text-sm sm:text-base">
-                  Ready to connect with us? Here's our email address:
+                  Ready to connect with us? Here&apos;s our email address:
                 </p>
                 <div className="bg-gray-50 rounded-lg p-3 sm:p-4 border-2 border-dashed border-gray-200 mb-4 sm:mb-6">
                   <p className="text-base sm:text-lg font-semibold text-gray-800 break-all">

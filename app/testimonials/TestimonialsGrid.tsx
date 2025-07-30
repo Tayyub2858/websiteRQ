@@ -103,8 +103,8 @@ export default function TestimonialsGrid({ translations }: TestimonialsGridProps
             <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 rounded-full overflow-hidden mr-4 shadow-md">
-                  <img 
-                    src={testimonial.image} 
+                  <img
+                    src={testimonial.image}
                     alt={testimonial.name}
                     className="w-full h-full object-cover"
                   />
@@ -126,7 +126,7 @@ export default function TestimonialsGrid({ translations }: TestimonialsGridProps
               </div>
 
               <p className="text-gray-700 mb-6 leading-relaxed italic">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </p>
 
               <div className="inline-flex items-center bg-emerald-100 text-emerald-700 font-semibold px-4 py-2 rounded-full text-sm">

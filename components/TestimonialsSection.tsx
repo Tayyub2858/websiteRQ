@@ -101,7 +101,7 @@ export default function TestimonialsSection({ translations }: TestimonialsSectio
 
               {/* Testimonial Text */}
               <p className="text-gray-700 mb-4 sm:mb-6 leading-relaxed italic text-sm sm:text-base">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </p>
 
               {/* Service Badge */}
@@ -116,7 +116,7 @@ export default function TestimonialsSection({ translations }: TestimonialsSectio
             </div>
           ))}
         </div>
-        
+
         {/* View All Button */}
         <div className="text-center mt-12 sm:mt-16">
           <Link

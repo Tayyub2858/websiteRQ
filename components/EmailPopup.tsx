@@ -42,13 +42,13 @@ export default function EmailPopup({ isOpen, onClose }: EmailPopupProps) {
 
   useEffect(() => {
     if (typeof document === 'undefined') return;
-    
+
     if (isOpen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
     }
-    
+
     return () => {
       document.body.style.overflow = 'unset';
     };
@@ -63,7 +63,7 @@ export default function EmailPopup({ isOpen, onClose }: EmailPopupProps) {
   if (!isOpen) return null;
 
   return (
-    <div 
+    <div
       className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4"
       onClick={handleBackdropClick}
     >
@@ -92,7 +92,7 @@ export default function EmailPopup({ isOpen, onClose }: EmailPopupProps) {
           {/* Content */}
           <div className="text-center mb-6 sm:mb-8">
             <p className="text-gray-600 mb-3 sm:mb-4 text-sm sm:text-base">
-              Ready to connect with us? Here's our email address:
+              Ready to connect with us? Here&apos;s our email address:
             </p>
             <div className="bg-gray-50 rounded-lg p-3 sm:p-4 border-2 border-dashed border-gray-200 mb-4 sm:mb-6">
               <p className="text-base sm:text-lg font-semibold text-gray-800 break-all">

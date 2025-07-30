@@ -1,6 +1,8 @@
 
 'use client';
 
+import Image from "next/image";
+
 interface OurStoryProps {
   translations: any;
 }
@@ -31,7 +33,7 @@ export default function OurStory({ translations }: OurStoryProps) {
             </div>
             
             <div className="relative">
-              <img 
+              <Image 
                 src="https://readdy.ai/api/search-image?query=Beautiful%20Islamic%20spiritual%20scene%20with%20open%20Holy%20Quran%20book%20glowing%20with%20divine%20light%2C%20peaceful%20mosque%20interior%20with%20Islamic%20calligraphy%2C%20prayer%20beads%20and%20traditional%20Islamic%20elements%2C%20golden%20light%20emanating%20from%20sacred%20text%2C%20spiritual%20atmosphere%20with%20Islamic%20geometric%20patterns%2C%20crescent%20moon%20and%20stars%2C%20peaceful%20meditation%20space%20with%20Islamic%20d%C3%A9cor%2C%20divine%20guidance%20and%20enlightenment%20scene&width=600&height=500&seq=our-story&orientation=landscape"
                 alt="Our Story"
                 className="w-full h-96 object-cover object-top rounded-2xl shadow-lg"
