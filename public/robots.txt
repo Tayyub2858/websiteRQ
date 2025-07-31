@@ -1,9 +1,1 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://yourdomain.com
-
-# Sitemaps
-Sitemap: https://yourdomain.com/sitemap.xml
+'User-agent: *\nAllow: /\nSitemap: https://rehmatequran.com/sitemap.xml' 
